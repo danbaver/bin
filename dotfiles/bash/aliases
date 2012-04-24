@@ -1,0 +1,14 @@
+alias tu='top -o cpu'
+alias tm='top -o vsize'
+alias cdd="cd -"			
+alias l="ls -alh"
+alias aload=". ~/bin/dotfiles/bash/aliases"
+alias aedit="mate -w ~/bin/dotfiles/bash/aliases && aload"
+alias h=history
+
+function take {
+	mkdir $1
+	cd $1
+}
+
+	

@@ -1,0 +1,5 @@
+export EDITOR="mate -w"
+export PATH=$PATH:~/bin
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagacad
+[[ -s "/Users/pendragon/.rvm/scripts/rvm" ]] && source "/Users/pendragon/.rvm/scripts/rvm"
